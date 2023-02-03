@@ -111,6 +111,8 @@ const Post = async ({ params: { slug } }: Props) => {
           data-hashtags={`rumour,blog,${slug}`}
           data-via="i_am_ugo_"
           data-related="blog,trending"
+          data-text={slug}
+          data-size="large"
         >
           <svg
             xmlns="http://www.w3.org/2000/svg"
