@@ -104,8 +104,8 @@ const Post = async ({ params: { slug } }: Props) => {
           className="rounded-[6px] w-[35px] h-[35px] flex justify-center items-center bg-[#1d9bf0]"
           href={`https://twitter.com/share?text=${post.title}&url=${
             process.env.NEXT_PUBLIC_VERCEL_URL
-              ? `https://${process.env.NEXT_PUBLIC_VERCEL_URL}/${slug}`
-              : `http://localhost:3000/${slug}`
+              ? `https://${process.env.NEXT_PUBLIC_VERCEL_URL}/post/${slug}`
+              : `http://localhost:3000/post/${slug}`
           }`}
         >
           <svg
@@ -126,8 +126,8 @@ const Post = async ({ params: { slug } }: Props) => {
           className="rounded-[6px] w-[35px] h-[35px] flex justify-center items-center bg-[#0165e1]"
           href={`https://www.facebook.com/sharer/sharer.php?u=${
             process.env.NEXT_PUBLIC_VERCEL_URL
-              ? `https://${process.env.NEXT_PUBLIC_VERCEL_URL}/${slug}`
-              : `http://localhost:3000/${slug}`
+              ? `https://${process.env.NEXT_PUBLIC_VERCEL_URL}/post/${slug}`
+              : `http://localhost:3000/post/${slug}`
           }`}
         >
           <svg
@@ -146,8 +146,8 @@ const Post = async ({ params: { slug } }: Props) => {
           className="rounded-[6px] w-[35px] h-[35px] flex justify-center items-center bg-[#5ffc7b]"
           href={`https://api.whatsapp.com/send?text=${
             process.env.NEXT_PUBLIC_VERCEL_URL
-              ? `https://${process.env.NEXT_PUBLIC_VERCEL_URL}/${slug}`
-              : `http://localhost:3000/${slug}`
+              ? `https://${process.env.NEXT_PUBLIC_VERCEL_URL}/post/${slug}`
+              : `http://localhost:3000/post/${slug}`
           }`}
         >
           <svg
@@ -166,8 +166,8 @@ const Post = async ({ params: { slug } }: Props) => {
           className="rounded-[6px] w-[35px] h-[35px] flex justify-center items-center bg-[#0a66c2]"
           href={`https://linkedin.com/shareArticle?mini=true&url=${
             process.env.NEXT_PUBLIC_VERCEL_URL
-              ? `https://${process.env.NEXT_PUBLIC_VERCEL_URL}/${slug}`
-              : `http://localhost:3000/${slug}`
+              ? `https://${process.env.NEXT_PUBLIC_VERCEL_URL}/post/${slug}`
+              : `http://localhost:3000/post/${slug}`
           }`}
         >
           <svg
