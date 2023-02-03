@@ -102,11 +102,15 @@ const Post = async ({ params: { slug } }: Props) => {
           target="_blank"
           rel="noreferrer"
           className="rounded-[6px] w-[35px] h-[35px] flex justify-center items-center bg-[#1d9bf0]"
-          href={`https://twitter.com/share?text=${post.title}&url=${
+          href="https://twitter.com/intent/tweet"
+          data-url={`${
             process.env.NEXT_PUBLIC_VERCEL_URL
               ? `https://${process.env.NEXT_PUBLIC_VERCEL_URL}/post/${slug}`
               : `http://localhost:3000/post/${slug}`
           }`}
+          data-hashtags={`rumour,blog,${slug}`}
+          data-via="i_am_ugo_"
+          data-related="blog,trending"
         >
           <svg
             xmlns="http://www.w3.org/2000/svg"
