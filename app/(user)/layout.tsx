@@ -1,6 +1,7 @@
 import Banner from "@/components/Banner";
 import Header from "@/components/Header";
 import "../globals.css";
+import { Analytics } from "@vercel/analytics/react";
 
 export default function RootLayout({
   children,
@@ -17,6 +18,7 @@ export default function RootLayout({
         <Header />
         <Banner />
         {children}
+        <Analytics />
       </body>
     </html>
   );
