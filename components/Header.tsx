@@ -20,17 +20,17 @@ const Header = () => {
           target="_blank"
           rel="no-referer"
           className="px-5 hidden py-3 text-sm md:text-base bg-gray-900 text-[#f7ab0a] lg:flex items-center rounded-full text-center"
-          href="https://twitter.com/i_am_ugo_"
+          href="https://www.facebook.com/profile.php?id=100090082942228"
         >
-          Follow us on twitter
+          Join our Community
         </Link>
         <Link
           target="_blank"
           rel="no-referer"
           className="px-5 py-3 lg:hidden text-sm md:text-base bg-gray-900 text-[#f7ab0a] flex items-center rounded-full text-center"
-          href="https://twitter.com/i_am_ugo_"
+          href="https://www.facebook.com/profile.php?id=100090082942228"
         >
-          Twitter
+          community
         </Link>
       </div>
     </header>
