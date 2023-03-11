@@ -6,7 +6,7 @@ const Header = () => {
       <div className="flex  items-center space-x-2">
         <Link href="/">
           <img
-            src="https://techiesportfolio.vercel.app/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fimg.149fb20c.jpeg&w=2048&q=75"
+            src="/logo.svg"
             height={50}
             width={50}
             alt="logo"
